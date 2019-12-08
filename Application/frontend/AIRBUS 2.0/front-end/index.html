@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style></style>
+    <title>AirBus Hackathon</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+    />
+
+    <style>
+      .button {
+        background: linear-gradient(to bottom, #33ccff 0%, #ff66ff 100%);
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+        font-family: Raleway;
+        border: 1px solid;
+      }
+    </style>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/demo.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+    />
+    <link rel="stylesheet" href="mystyle.css" />
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  </head>
+
+  <body>
+    <section name="index" id="index">
+      <div
+        class="container-fluid"
+        style=" background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);"
+      >
+        <div id="particles-js"></div>
+
+        <div class="row cb-slideshow-text-container ">
+          <div class="tm-content col-xl-8 col-sm-10 col-xs-10 ml-auto section">
+            <header class="mb-3">
+              <h1 style="color: black;font-family: Raleway;">AirBus 2.0</h1>
+            </header>
+            <p class="mb-3" style="color: black;font-family: Raleway;">
+              Your journey starts here!!
+            </p>
+
+            <form
+              action="http://100.82.192.37:8085/airport"
+              method="POST"
+              class="subscribe-form"
+            >
+              <div class="row form-section">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <input
+                    name="src"
+                    type="text"
+                    class="form-control"
+                    id="src"
+                    placeholder="From"
+                    required
+                  />
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <input
+                    name="dest"
+                    type="text"
+                    class="form-control"
+                    id="dest"
+                    placeholder="To"
+                    required
+                  />
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <input
+                    type="date"
+                    name="date"
+                    id="date"
+                    class="form-control datepicker"
+                    style="width: 100px;"
+                  />
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-8">
+                  <button class="button" style="width:200px;">
+                    find flights...
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script type="text/javascript" src="js/particles.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</html>
