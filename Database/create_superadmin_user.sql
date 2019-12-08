@@ -1,0 +1,1 @@
+INSERT INTO Users (email, hash_password, first_name, role) values('superadmin', SHA1('superadmin'),'superadmin', 'superadmin');
